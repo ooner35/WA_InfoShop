@@ -14,7 +14,7 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-
+        // Merhaba Dünya
         return View(_context.Products.ToList());
     }
 }
